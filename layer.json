@@ -1,5 +1,5 @@
 {
-	"name": "layer",
+	"name": "test",
 	"version": "2.1",
 	"domain": "mitre-enterprise",
 	"description": "",
@@ -18,7 +18,7 @@
 	"hideDisabled": false,
 	"techniques": [
 		{
-			"techniqueID": "T1156",
+			"techniqueID": "T1015",
 			"tactic": "persistence",
 			"color": "#e60d0d",
 			"comment": "",
@@ -26,7 +26,15 @@
 			"metadata": []
 		},
 		{
-			"techniqueID": "T1191",
+			"techniqueID": "T1015",
+			"tactic": "privilege-escalation",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1109",
 			"tactic": "defense-evasion",
 			"color": "#e60d0d",
 			"comment": "",
@@ -34,16 +42,24 @@
 			"metadata": []
 		},
 		{
-			"techniqueID": "T1191",
-			"tactic": "execution",
+			"techniqueID": "T1109",
+			"tactic": "persistence",
 			"color": "#e60d0d",
 			"comment": "",
 			"enabled": true,
 			"metadata": []
 		},
 		{
-			"techniqueID": "T1212",
-			"tactic": "credential-access",
+			"techniqueID": "T1213",
+			"tactic": "collection",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1069",
+			"tactic": "discovery",
 			"color": "#e60d0d",
 			"comment": "",
 			"enabled": true,
